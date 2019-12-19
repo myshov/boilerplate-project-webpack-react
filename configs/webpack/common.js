@@ -14,11 +14,14 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         include: [SRC_DIR],
         loader: 'babel-loader',
       },
     ],
+  },
+  resolve: {
+    extensions: ['.wasm', '.mjs', '.js', '.json', '.jsx'],
   },
   optimization: {
     moduleIds: 'hashed',
