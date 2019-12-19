@@ -14,7 +14,7 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(js)$/,
+        test: /\.js$/,
         include: [SRC_DIR],
         loader: 'babel-loader',
       },

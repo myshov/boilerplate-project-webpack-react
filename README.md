@@ -9,6 +9,7 @@ It includes:
 * Prettier
 * Autoprefixer
 * Jest
+* React
 
 ## License
 

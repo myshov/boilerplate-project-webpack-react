@@ -1,3 +1,5 @@
-const id = arg => arg;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App/App';
 
-export default id;
+ReactDOM.render(<App />, document.getElementById('app'));

@@ -7,6 +7,7 @@ module.exports = {
     'airbnb-base',
     'plugin:prettier/recommended',
     'plugin:jest/recommended',
+    'plugin:react/recommended',
   ],
   globals: {
     Atomics: 'readonly',
@@ -33,4 +34,9 @@ module.exports = {
   root: true,
   noInlineConfig: true,
   reportUnusedDisableDirectives: true,
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 };
