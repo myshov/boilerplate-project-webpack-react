@@ -1,3 +1,3 @@
-// __mocks__/styleMock.js
+const idObj = require('identity-obj-proxy');
 
-module.exports = {};
+module.exports = idObj;
