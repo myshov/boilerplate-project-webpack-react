@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
 import { hot } from 'react-hot-loader';
+
+import styles from './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.app}>
       <h1>App</h1>
     </div>
   );
