@@ -7,5 +7,10 @@ exports[`Component "App" should render correctly 1`] = `
   <h1>
     App
   </h1>
+  <div>
+    <Button
+      text="push"
+    />
+  </div>
 </div>
 `;
